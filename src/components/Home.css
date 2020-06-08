@@ -17,3 +17,15 @@
   font-weight: 100;
   font-size: 30px;
 }
+
+.how-it-works-section {
+  padding: 20px 300px;
+  text-align: left;
+}
+
+.how-it-works-header {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
