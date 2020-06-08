@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Home } from "././components/Home";
+import { Home } from "./components/Home";
+import { Helper } from "./components/Helper";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         </nav>
         <Switch>
           <Route path="/helper">
-            <div>Helpers</div>
+            <Helper />
           </Route>
           <Route path="/helperhelpers">
             <div>Helper Helpers</div>
