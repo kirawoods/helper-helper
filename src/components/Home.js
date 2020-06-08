@@ -6,8 +6,8 @@ export function Home() {
   return (
     <div>
       <img className="header-logo" src={logo} />
-      <div className="about-page">
-        <h2>About</h2>
+      <div className="about-section">
+        <h2 className="about-header">About</h2>
         <p>
           We're commited to finding ways to make a difference during these
           difficult times. Essential workers are more overworked than ever, and

@@ -4,16 +4,16 @@
   height: 600px;
 }
 
-.menu {
-  display: flex;
+.about-section {
   background-color: black;
   color: white;
-  justify-content: center;
-  padding: 20px 0px;
+  padding: 20px 300px;
+  text-align: left;
 }
 
-.menu-item {
-  padding: 0px 20px;
+.about-header {
+  text-align: center;
   font-family: "Anton", sans-serif;
+  font-weight: 100;
   font-size: 30px;
 }
