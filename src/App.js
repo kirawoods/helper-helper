@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { Home } from "./components/Home";
 import { Helper } from "./components/Helper";
+import { HelperHelper } from "./components/HelperHelper";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <Helper />
           </Route>
           <Route path="/helperhelpers">
-            <div>Helper Helpers</div>
+            <HelperHelper />
           </Route>
           <Route path="/">
             <Home />
