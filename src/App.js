@@ -4,25 +4,12 @@ import { Home } from "./components/Home";
 import { Helper } from "./components/Helper";
 import { HelperHelper } from "./components/HelperHelper";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Header } from "./components/Header";
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <div className="menu">
-            <Link to="/" className="menu-item">
-              Home
-            </Link>
-
-            <Link to="/helper" className="menu-item">
-              Post a Request
-            </Link>
-
-            <Link to="/helperhelpers" className="menu-item">
-              Help a Helper
-            </Link>
-          </div>
-        </nav>
+        <Header />
         <Switch>
           <Route path="/helper">
             <Helper />
