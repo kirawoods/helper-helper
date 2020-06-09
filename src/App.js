@@ -5,6 +5,8 @@ import { Helper } from "./components/Helper";
 import { HelperHelper } from "./components/HelperHelper";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
