@@ -1,0 +1,15 @@
+import React from "react";
+import "./HelpRequestCard.css";
+
+export function HelpRequestCard(props) {
+  return (
+    <div>
+      <div>
+        <h2>{props.location}</h2>
+        <p>{props.request}</p>
+        <p>{props.name}</p>
+        <button>Fulfill Request</button>
+      </div>
+    </div>
+  );
+}
