@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 
 export const Helper = () => (
   <div>
-    <h1>Request Form</h1>
+    <h1 className="request-form-header">Request Form</h1>
     <Formik
       initialValues={{
         fullName: "",
@@ -33,19 +33,34 @@ export const Helper = () => (
     >
       {({ isSubmitting }) => (
         <Form className="request-form">
-          <Field name="fullName" placeholder="Name" />
+          <Field
+            className="request-form-field"
+            name="fullName"
+            placeholder="Name"
+          />
           {/* <ErrorMessage name="name" component="div" /> */}
           <br />
 
-          <Field type="email" name="email" placeholder="Email" />
+          <Field
+            className="request-form-field"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
           <ErrorMessage name="email" component="div" />
           <br />
 
-          <Field type="location" name="location" placeholder="Location" />
+          <Field
+            className="request-form-field"
+            type="location"
+            name="location"
+            placeholder="Location"
+          />
           {/* <ErrorMessage name="email" component="div" /> */}
           <br />
 
           <Field
+            className="request-form-field"
             component="textarea"
             name="request"
             placeholder="Enter your request"
@@ -53,7 +68,11 @@ export const Helper = () => (
 
           {/* <ErrorMessage name="email" component="div" /> */}
           <br />
-          <button type="submit" disabled={isSubmitting}>
+          <button
+            className="submit-button"
+            type="submit"
+            disabled={isSubmitting}
+          >
             Submit
           </button>
         </Form>

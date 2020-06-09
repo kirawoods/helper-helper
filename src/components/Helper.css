@@ -1,4 +1,29 @@
 Form {
   text-align: left;
-  padding: 20px 200px;
+  padding: 20px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.request-form-field {
+  border: none;
+  border-bottom: black solid 1px;
+  width: 100%;
+  padding: 5px;
+  margin: 20px 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 20px;
+  margin: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
