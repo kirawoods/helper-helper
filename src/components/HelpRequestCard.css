@@ -5,3 +5,10 @@
   border-radius: 5px;
   padding: 10px;
 }
+
+.fulfill-request-button {
+  background-color: palegoldenrod;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+}
