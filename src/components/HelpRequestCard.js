@@ -3,7 +3,7 @@ import "./HelpRequestCard.css";
 
 export function HelpRequestCard(props) {
   return (
-    <div>
+    <div className="help-request-card">
       <div>
         <h2>{props.location}</h2>
         <p>{props.request}</p>
