@@ -10,8 +10,37 @@ const helpRequest = {
 
 export function HelperHelper() {
   return (
-    <div>
-      <div>Select a Help Request to Fulfill</div>
+    <div className="help-cards-container">
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
+      <HelpRequestCard
+        name={helpRequest.name}
+        location={helpRequest.location}
+        request={helpRequest.request}
+      />
       <HelpRequestCard
         name={helpRequest.name}
         location={helpRequest.location}
