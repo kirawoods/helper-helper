@@ -39,7 +39,6 @@ export const Helper = () => (
             placeholder="Name"
           />
           {/* <ErrorMessage name="name" component="div" /> */}
-          <br />
 
           <Field
             className="request-form-field"
@@ -48,7 +47,6 @@ export const Helper = () => (
             placeholder="Email"
           />
           <ErrorMessage name="email" component="div" />
-          <br />
 
           <Field
             className="request-form-field"
@@ -57,7 +55,6 @@ export const Helper = () => (
             placeholder="Location"
           />
           {/* <ErrorMessage name="email" component="div" /> */}
-          <br />
 
           <Field
             className="request-form-field"
@@ -65,9 +62,11 @@ export const Helper = () => (
             name="request"
             placeholder="Enter your request"
           />
+          <label>Evidence of Essential Worker Status</label>
+          <Field id="file" name="file" type="file" />
 
           {/* <ErrorMessage name="email" component="div" /> */}
-          <br />
+
           <button
             className="submit-button"
             type="submit"
