@@ -26,7 +26,9 @@ export const Helper = () => (
       // }}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
+          alert(
+            /*JSON.stringify(values, null, 2)*/ "Your request has been submitted. Please allow 48 hours for verification and you should see your post on the 'Help a Helper page'"
+          );
           setSubmitting(false);
         }, 400);
       }}
