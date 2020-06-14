@@ -6,6 +6,7 @@ import { HelperHelper } from "./components/HelperHelper";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { Message } from "./components/MessageHelper";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/helperhelpers">
             <HelperHelper />
+          </Route>
+          <Route path="/message">
+            <Message />
           </Route>
           <Route path="/">
             <Home />
