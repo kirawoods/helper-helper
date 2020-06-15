@@ -7,9 +7,33 @@
   background-color: white;
 }
 
+.request-container {
+  margin-bottom: 50px;
+}
+
+.location {
+  text-align: left;
+}
+
+.request {
+  text-align: left;
+}
+
+.name {
+  text-align: left;
+}
+
 .fulfill-request-button {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
   background-color: palegoldenrod;
   border: none;
   border-radius: 5px;
   padding: 10px 30px;
+}
+
+.button-text {
+  color: black;
+  text-decoration: none;
 }

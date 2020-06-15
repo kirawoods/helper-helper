@@ -6,12 +6,16 @@ export function HelpRequestCard(props) {
   return (
     <div className="help-request-card">
       <div>
-        <h2>{props.location}</h2>
-        <p>{props.request}</p>
-        <p>{props.name}</p>
-        <Link to="/message" className="fulfill-request-button">
-          Fulfill Request
-        </Link>
+        <div className="request-container">
+          <h2 className="location">{props.location}</h2>
+          <p className="request">Request: {props.request}</p>
+          <p className="name">Name: {props.name}</p>
+        </div>
+        <div className="fulfill-request-button">
+          <Link to="/message" className="button-text">
+            Fulfill Request
+          </Link>
+        </div>
       </div>
     </div>
   );

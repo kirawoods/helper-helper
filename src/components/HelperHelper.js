@@ -20,12 +20,12 @@ const helpRequests = [
   },
   {
     location: "Oakland, CA",
-    request: "House Painting",
+    request: "House Painting on Exterior Walls",
     name: "Margaret Hamilton",
   },
   {
     location: "Remote",
-    request: "Planning Birthday Party for my 6 year old who likes horses",
+    request: "Planning birthday party for my 6 year old",
     name: "Pam Hardt-English",
   },
   {
