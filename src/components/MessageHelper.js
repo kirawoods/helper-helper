@@ -1,5 +1,5 @@
 import React from "react";
-import "./Helper.css";
+import "./MessageHelper.css";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
@@ -27,7 +27,7 @@ export const Message = () => (
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
           alert(
-            /*JSON.stringify(values, null, 2)*/ "Your request has been submitted. Please allow 48 hours for verification and you should see your post on the 'Help a Helper page'"
+            /*JSON.stringify(values, null, 2)*/ "Your message has been sent. Thanks for Helping a Helper!"
           );
           setSubmitting(false);
         }, 400);
