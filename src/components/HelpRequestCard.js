@@ -8,8 +8,11 @@ export function HelpRequestCard(props) {
       <div>
         <div className="request-container">
           <h2 className="location">{props.location}</h2>
-          <p className="request">Request: {props.request}</p>
-          <p className="name">Name: {props.name}</p>
+
+          <p className="request">
+            <div className="card-label">Request </div> {props.request}
+          </p>
+          <p className="name">- {props.name}</p>
         </div>
         <div className="fulfill-request-button">
           <Link to="/message" className="button-text">

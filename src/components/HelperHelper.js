@@ -34,9 +34,19 @@ const helpRequests = [
     name: "Joan Margaret Winters",
   },
   {
+    location: "Remote",
+    request: "Online therapy session",
+    name: "Emine Yilmaz",
+  },
+  {
     location: "Redwood City, CA",
     request: "Book Donations for Children's Book Exchange",
     name: "Gwen Bell",
+  },
+  {
+    location: "Remote",
+    request: "Grocery store gift card",
+    name: "Diane Kelly",
   },
 ];
 

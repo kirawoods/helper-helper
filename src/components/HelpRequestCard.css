@@ -37,3 +37,7 @@
   color: black;
   text-decoration: none;
 }
+
+.card-label {
+  font-weight: 700;
+}
