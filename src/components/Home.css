@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .header-logo {
   height: 600px;
@@ -9,6 +10,7 @@
   color: white;
   padding: 20px 300px 80px 300px;
   text-align: left;
+  font-family: "Lato", sans-serif;
 }
 
 .about-header {
@@ -21,6 +23,7 @@
 .how-it-works-section {
   padding: 20px 300px 80px 300px;
   text-align: left;
+  font-family: "Lato", sans-serif;
 }
 
 .how-it-works-header {
@@ -35,6 +38,7 @@
   color: white;
   padding: 20px 300px 80px 300px;
   text-align: left;
+  font-family: "Lato", sans-serif;
 }
 
 .FAQ-header {
