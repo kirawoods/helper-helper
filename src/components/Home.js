@@ -41,8 +41,8 @@ export function Home() {
         <h2 className="FAQ-header">Frequently Asked Questions</h2>
         <p className="question">Does it cost anything to use Helper Helper?</p>
         <p className="answer">
-          Helper Helper is totally free for both essential workers and those who
-          respond to help requests.
+          Helper Helper is totally free for both essential workers and
+          volunteers.
         </p>
         <p className="question">Who qualifies as an essential worker?</p>
         <p className="answer">
