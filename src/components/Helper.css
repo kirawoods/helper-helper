@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 Form {
   text-align: left;
   padding: 20px 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .request-form-field {
@@ -14,10 +16,10 @@ Form {
   padding: 5px;
   margin: 20px 10px;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.submit-button {
+.submit-request-button {
   width: 100%;
   padding: 20px;
   margin: 12px;
@@ -25,7 +27,7 @@ Form {
   color: white;
   border: none;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   border-radius: 5px;
 }
 
@@ -35,7 +37,7 @@ Form {
   padding: 5px;
   margin: 20px 10px;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   color: gray;
 }
 
@@ -47,6 +49,6 @@ Form {
   padding: 5px;
   margin: 10px 10px;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   color: gray;
 }

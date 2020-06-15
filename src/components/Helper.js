@@ -57,7 +57,7 @@ export const Helper = () => (
           </label>
 
           <button
-            className="submit-button"
+            className="submit-request-button"
             type="submit"
             disabled={isSubmitting}
           >
