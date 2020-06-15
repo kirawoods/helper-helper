@@ -2,7 +2,7 @@
 
 Form {
   text-align: left;
-  padding: 20px 400px;
+  padding: 10px 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +22,7 @@ Form {
 .submit-request-button {
   width: 100%;
   padding: 20px;
-  margin: 12px;
+  margin: 0px 12px 30px 12px;
   background-color: black;
   color: white;
   border: none;
