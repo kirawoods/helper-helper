@@ -46,7 +46,7 @@ export const Helper = () => (
           />
 
           <Field
-            className="request-form-field"
+            className="request-text-area"
             component="textarea"
             name="request"
             placeholder="Enter your request"

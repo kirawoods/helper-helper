@@ -38,3 +38,15 @@ Form {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
 }
+
+.request-text-area {
+  border: black 1px solid;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
