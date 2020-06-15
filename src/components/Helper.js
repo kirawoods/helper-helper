@@ -13,21 +13,10 @@ export const Helper = () => (
         location: "",
         request: "",
       }}
-      // validate={(values) => {
-      //   const errors = {};
-      //   if (!values.email) {
-      //     errors.email = "Required";
-      //   } else if (
-      //     !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-      //   ) {
-      //     errors.email = "Invalid email address";
-      //   }
-      //   return errors;
-      // }}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
           alert(
-            /*JSON.stringify(values, null, 2)*/ "Your request has been submitted. Please allow 48 hours for verification and you should see your post on the 'Help a Helper page'"
+            "Your request has been submitted. Please allow 48 hours for verification and you should see your post on the 'Help a Helper page'"
           );
           setSubmitting(false);
         }, 400);
@@ -40,7 +29,6 @@ export const Helper = () => (
             name="fullName"
             placeholder="Name"
           />
-          {/* <ErrorMessage name="name" component="div" /> */}
 
           <Field
             className="request-form-field"
@@ -56,7 +44,6 @@ export const Helper = () => (
             name="location"
             placeholder="Location"
           />
-          {/* <ErrorMessage name="email" component="div" /> */}
 
           <Field
             className="request-form-field"
@@ -64,10 +51,10 @@ export const Helper = () => (
             name="request"
             placeholder="Enter your request"
           />
-          <label>Evidence of Essential Worker Status</label>
-          <Field id="file" name="file" type="file" />
-
-          {/* <ErrorMessage name="email" component="div" /> */}
+          <label className="evidence">
+            Evidence of Essential Worker Status: {"  "}
+            <Field id="file" name="file" type="file" />
+          </label>
 
           <button
             className="submit-button"
