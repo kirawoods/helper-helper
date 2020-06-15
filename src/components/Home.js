@@ -19,7 +19,7 @@ export function Home() {
       </div>
       <div className="how-it-works-section">
         <h2 className="how-it-works-header">How It Works</h2>
-        <p>For Essential Workers</p>
+        <p className="question">For Essential Workers</p>
         <p>
           Essential workers can post a request through the "Post a Request
           Page". Their request will then show up on the "Helper Helper" page so
@@ -29,7 +29,7 @@ export function Home() {
           preparation. Please remember to keep your requests in accordance with
           local shelter in place ordinances.
         </p>
-        <p>For Volunteers</p>
+        <p className="question">For Volunteers</p>
         <p>
           Volunteers can go to the "Help a Helper" page to view requests in
           their area or look for remote opportunities. Click the "Fulfill
@@ -56,6 +56,16 @@ export function Home() {
           copy of your work ID badge, healthcare provider license, or other
           proof of current in-person work, such as an employment contract or a
           letter or email from your current employer.
+        </p>
+        <p className="question">What types of requests are allowed?</p>
+        <p className="answer">
+          Essential workers are facing a variety of needs during the COVID-19
+          crisis. As long as your request is legal in your state and follows
+          local soical distancing laws, feel free to submit it. In addition for
+          requests for direct volunteering help, you may also submit requests
+          for monetary donations such as grocery store gift cards, airline
+          miles, DoorDash credit, or financial assistance to cover costs of
+          childcare.
         </p>
       </div>
     </div>
