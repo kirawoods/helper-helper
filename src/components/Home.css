@@ -7,7 +7,7 @@
 .about-section {
   background-color: black;
   color: white;
-  padding: 20px 300px;
+  padding: 20px 300px 80px 300px;
   text-align: left;
 }
 
@@ -28,4 +28,23 @@
   font-family: "Anton", sans-serif;
   font-weight: 100;
   font-size: 30px;
+}
+
+.FAQ-section {
+  background-color: black;
+  color: white;
+  padding: 20px 300px 80px 300px;
+  text-align: left;
+}
+
+.FAQ-header {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.question {
+  font-weight: 700;
+  font-size: 20px;
 }

@@ -37,6 +37,27 @@ export function Home() {
           the essential worker who made the request.
         </p>
       </div>
+      <div className="FAQ-section">
+        <h2 className="FAQ-header">Frequently Asked Questions</h2>
+        <p className="question">Does it cost anything to use Helper Helper?</p>
+        <p className="answer">
+          Helper Helper is totally free for both essential workers and those who
+          respond to help requests.
+        </p>
+        <p className="question">Who qualifies as an essential worker?</p>
+        <p className="answer">
+          Many services are only offering assistance to healthcare workers
+          during this crisis. We consider essential workers to be anyone who is
+          doing an in-person job during the COVID-19 crisis.
+        </p>
+        <p className="question">How do I prove I'm an essential worker?</p>
+        <p className="answer">
+          On the request form, there's a file upload section. Please include a
+          copy of your work ID badge, healthcare provider license, or other
+          proof of current in-person work, such as an employment contract or a
+          letter or email from your current employer.
+        </p>
+      </div>
     </div>
   );
 }
