@@ -1,6 +1,6 @@
 ## About Helper Helper
 
-Helper helper is a prototype created in response to the COVID-19 crisis. It's purpose is to alleviate the burden on essential workers by matching them with volunteers/donors who respond to their specific requests. The motivation for creating this direct connection is two-fold:
+Helper helper is a prototype created for the Girls in Tech hackathon in response to the COVID-19 crisis. It's purpose is to alleviate the burden on essential workers by matching them with volunteers/donors who respond to their specific requests. The motivation for creating this direct connection is two-fold:
 
 1. Many essential workers don't qualify for economic/non-profit support during this time, and are increasingly at risk of burn-out and health related concerns due to the nature of their work.
 
