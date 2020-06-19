@@ -11,7 +11,7 @@ const helpRequests = [
   {
     location: "San Mateo, CA",
     request: "Childcare on Mondays and Wednesdays",
-    name: "Katherine Johson",
+    name: "Katherine Johnson",
   },
   {
     location: "Remote",
