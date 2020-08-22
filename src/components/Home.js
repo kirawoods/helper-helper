@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 export function Home() {
   return (
     <div>
-      <img className="header-logo" src={logo} />
+      <img alt="helper-helper-logo" className="header-logo" src={logo} />
       <div className="about-section">
         <h2 className="about-header">About</h2>
         <p>
